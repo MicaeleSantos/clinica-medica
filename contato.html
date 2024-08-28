@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica-DEPI</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="quem-somos.html">Quem somos</a></li>
+                <li><a href="horarios.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                 <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <h2>Envie-nos uma mensagem</h2>
+                <p>Dúvidas? A (CDI) está aqui para ajudar. Envie-nos uma mensagem e nós entraremos em contato.</p>
+
+
+                <form name="contac" method="post" action="#">
+                    <fieldset>
+                        <legend>Deixe sua mensagem</legend>
+
+                        <label>Nome:<sup>* </sup></label><input type="text">
+                        <label>Telefone:</label><input type="tel"><br>
+                        <label>E-mail:<sup>* </sup></label>
+                        <input type="email"><br>
+
+                        <label>Assunto:<sup>* </sup></label>
+                        <select name="role">
+                            <option value="Selecione o assunto">Selecione o Assunto</option>
+                            <option value="Dúvida">Dúvida</option>
+                            <option value="Reclamação">Reclamação</option>
+                            <option value="Agendamento">Agendamento</option>
+                        </select><br>
+
+                        <label>Mensagem:<sup>* </sup></label><br>
+                        <textarea rows="8" cols="55" name="message"></textarea><br>
+
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </fieldset>
+                </form>
+
+                <H3>Como chegar</H3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28817.66202372053!2d-49.307818360449225!3d-25.46473739999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce31d1deb11b7%3A0x7ae7180c9a7521ff!2sCentro%20Diagn%C3%B3stico%20%C3%81gua%20Verde%20-%20Unidade%20Mulher!5e0!3m2!1spt-BR!2sbr!4v1719116699319!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <h4>INFORMAÇÕES DE CONTATO
+                </h4>
+
+                <p>Ligue para nossa central de atendimento:</p>
+                <p>
+                    <b>Fone:</b> (061) 9999-9999
+                </p>
+                <p>
+                    <b>E-mail:</b> clinicadeimagens@gmail.com
+                </p>
+                <p>
+                    <b>Endereço:</b> Avenida Marvel Super Heroes, 13, CEP: 01968-000 | Ms. Marvel – HQ
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
